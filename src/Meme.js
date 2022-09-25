@@ -4,12 +4,25 @@ import  Search  from "./Search";
 
 
 export default function Meme() {
+
+
+    const [meme, setMeme] = useState({
+        topText: "",
+        bottomText: "",
+        randomImage: 'https://thumbs.dreamstime.com/b/news-newspapers-folded-stacked-word-wooden-block-puzzle-dice-concept-newspaper-media-press-release-42301371.jpg' 
+    })
+    
     const {hits} = useGlobal();
     if(hits.length === 0 ){
         return <h1 style={{color : 'wheat'}}>NO DATA FOUND ...</h1>
     }
+
+    
+    
    
    let ima = [];
+
+   
 
    hits?.map((curr,i)=>{
     ima.push(curr.image);
@@ -18,11 +31,14 @@ export default function Meme() {
     
 
     
-    const [meme, setMeme] = useState({
+   /*  const [meme, setMeme] = useState({
         topText: "",
         bottomText: "",
         randomImage: 'https://thumbs.dreamstime.com/b/news-newspapers-folded-stacked-word-wooden-block-puzzle-dice-concept-newspaper-media-press-release-42301371.jpg' 
     })
+     */
+
+
     // const [allMemes, setAllMemes] = React.useState([])
     
 
@@ -57,7 +73,10 @@ export default function Meme() {
     
     return (
         <main>
-        <Search/>
+            <div class="meme_search">
+            <Search/>
+            </div>
+        
             <div className="form">
                 <input 
                     type="text"
@@ -79,7 +98,7 @@ export default function Meme() {
                     className="form--button"
                     onClick={getMemeImage}
                 >
-                    Get a new meme image 🖼
+                    Get a new image 🖼
                 </button>
             </div>
             <div className="meme">

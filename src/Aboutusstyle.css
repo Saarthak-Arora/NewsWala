@@ -25,7 +25,7 @@ body::before{
 
 ::selection{
   background:	#00ADB5;
-  color: #393E46;
+  color: #6e757f;
 }
 .container{
   max-width: 950px;
@@ -131,6 +131,10 @@ body::before{
 }
 .button label.active{
   width: 35px;
+}
+
+.name{
+  color: aliceblue;
 }
 #one:checked ~ .button .one{
   width: 35px;
