@@ -1,6 +1,7 @@
 import React from 'react'
 import './Aboutusstyle.css'
 
+
 const Aboutus = () => {
   return (
     <div><div class="container">
@@ -11,11 +12,11 @@ const Aboutus = () => {
         <div class="card">
          <div class="content">
            <div class="img">
-             <img src="images/1.webp" alt=""/>
+             <img src="./images/saarthak2.png" alt=""/>
            </div>
            <div class="details">
-             <div class="name">Name 1</div>
-             <div class="job">Web Designer</div>
+             <div class="name">Saarthak</div>
+             <div class="job">Web Devloper</div>
            </div>
            <div class="media-icons">
              <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -28,11 +29,11 @@ const Aboutus = () => {
         <div class="card">
          <div class="content">
            <div class="img">
-             <img src="images/1.webp" alt=""/>
+             <img src="./images/sarang2.png" alt=""/>
            </div>
            <div class="details">
-             <div class="name">Name 2</div>
-             <div class="job">UI Designer</div>
+             <div class="name">Sarang</div>
+             <div class="job">Web Devloper</div>
            </div>
            <div class="media-icons">
              <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -45,10 +46,10 @@ const Aboutus = () => {
         <div class="card">
          <div class="content">
            <div class="img">
-             <img src="images/1.webp" alt=""/>
+             <img src="./images/sana2.png" alt=""/>
            </div>
            <div class="details">
-             <div class="name">Name 3</div>
+             <div class="name">Sana Gupta</div>
              <div class="job">Web Devloper</div>
            </div>
            <div class="media-icons">
@@ -64,10 +65,10 @@ const Aboutus = () => {
         <div class="card">
          <div class="content">
            <div class="img">
-             <img src="images/1.webp" alt=""/>
+             <img src="./images/saurav.png" alt=""/>
            </div>
            <div class="details">
-             <div class="name">Name 4</div>
+             <div class="name">Saurav Sharma</div>
              <div class="job">Web Designer</div>
            </div>
            <div class="media-icons">
@@ -81,10 +82,10 @@ const Aboutus = () => {
         <div class="card">
          <div class="content">
            <div class="img">
-             <img src="images/1.webp" alt=""/>
+             <img src="./images/srijan.png" alt=""/>
            </div>
            <div class="details">
-             <div class="name">Name 5</div>
+             <div class="name">Srijan </div>
              <div class="job">UI Designer</div>
            </div>
            <div class="media-icons">

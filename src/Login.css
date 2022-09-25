@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
 
 *{ 
     margin: 0;
     padding: 0;
-}  /* done for all */
+}  
 
 body {
     background: url(bg.jpg) no-repeat center center fixed;
@@ -74,4 +74,25 @@ body {
     color: #00ADB5;
     background: white;
     font-weight: bold;
+}
+  */
+
+  
+
+  .divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+
+@media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
 }
