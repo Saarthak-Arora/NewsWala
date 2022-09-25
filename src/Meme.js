@@ -1,6 +1,7 @@
 import { useGlobal } from "./Context"
 import {useState} from "react";
 import  Search  from "./Search";
+import './style.css'
 
 
 export default function Meme() {

@@ -1,4 +1,5 @@
 import { useGlobal } from "./Context";
+import './style.css'
 
 const Stories = () => {
   const { hits, isLoading, removePost, addPost } = useGlobal();

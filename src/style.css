@@ -5,11 +5,7 @@ body {
 
 
 
-/* body{
-  width: 100vw;
-  background-color: rgb(73, 68, 68);
- 
-} */
+
   .cardCust{
     width: 45rem;
     margin: auto;
@@ -72,7 +68,13 @@ button:hover{
 
   .myNoteBtn{
     margin: 10px;
+    background: #bececf;
+    color: white;
     /* position: fixed; */
+  }
+  .myNoteBtn:hover{
+    background-color: #666699;
+  color: wheat;
   }
 
 .Sb{
@@ -127,23 +129,14 @@ button:hover{
   background-color:#6aa9ae;
 }
 
-.meme {
+/* .meme {
 justify-content: center;
-  
   position: absolute; 
   align-items: center;
-
-
-
-
-
-   margin-right: 5vw;
+  margin-right: 5vw;
   max-width: 65vw;
   margin-left:30vw; 
 
-  
- 
- 
  
 }
 
@@ -153,8 +146,20 @@ justify-content: center;
   max-width:65vw;
   
  
+} */
+
+.meme {
+  position: absolute;
+  width: 70vw;
+  height: 60vh;
+  margin-left: 15vw;
 }
 
+.meme--image {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+}
 .meme_search{
   margin-top: 10px;
   margin-bottom:20px;

@@ -6,7 +6,6 @@ import NavBar from './NavBar';
 // import AddToNote from './AddToNote';
 // import Search from './Search';
 import Meme from "./Meme";
-import './style.css'
 import Main from './Main';
 import NotFound from './NotFound';
 import Aboutus from './Aboutus';

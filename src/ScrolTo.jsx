@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import './style.css'
 const ScrollButton = () =>{
 
 const [visible, setVisible] = useState(false)
@@ -28,7 +28,7 @@ window.addEventListener('scroll', toggleVisible);
 return (
     <>
     <div style={{display:"flex",msFlexDirection:'row-reverse'}}>
-	<button className = 'myBtn' onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}>TOP</button>
+	<button className = 'myBtn' onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}><i className="fa fa-arrow-circle-up" style={{fontSize:'48px',color:'black'}}></i></button>
     </div>
     </>
 

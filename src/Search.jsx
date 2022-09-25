@@ -1,4 +1,5 @@
 import React,{useRef} from 'react'
+import './style.css'
 import { useGlobal } from "./Context";
 
 const Search = () => {

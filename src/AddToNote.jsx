@@ -1,6 +1,6 @@
 import React from "react";
 import { useGlobal } from "./Context";
-
+import './style.css'
 let auth = "unKnown";
 
 
@@ -13,7 +13,7 @@ const AddToNote = () => {
     return (
       <>
         <button
-          className="btn btn-primary myNoteBtn"
+          className="btn myNoteBtn"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasRight"
@@ -45,8 +45,9 @@ const AddToNote = () => {
 
   return (
     <>
+    
       <button
-        className="btn btn-primary myNoteBtn"
+        className="btn myNoteBtn"
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasRight"
