@@ -90,7 +90,7 @@ body {
 }
 .h-custom {
   height: calc(100% - 73px);
-  color: white;
+  color: white !important;
 }
 
 
