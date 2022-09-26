@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
-  background-color: rgb(73, 68, 68);
+  background-color: rgb(145, 111, 111) !important;
 }
 
 
@@ -16,17 +16,17 @@ body {
 .writeNote{
   height: 34px;
   width: 140px;
-  background-color: rgb(190, 206, 207);
+  background-color: rgb(190, 206, 207) !important;
   border-radius: 10px;
   margin: 6px;
-  color: black;
+  color: black !important;
   text-justify: center;
   border:2px solid black;
   padding: 2px;
 }
 .writeNote:hover{
-  background-color: #666699;
-  color: wheat;
+  background-color: #666699 !important;
+  color: wheat !important;
 }
 /* .writeNote::after{
   background-color: #bececf;
@@ -68,8 +68,8 @@ button:hover{
 
   .myNoteBtn{
     margin: 10px;
-    background: #bececf;
-    color: white;
+    background: #bececf !important;
+    color: white !important;
     /* position: fixed; */
   }
   .myNoteBtn:hover{
